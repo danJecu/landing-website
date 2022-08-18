@@ -283,3 +283,13 @@ footer ul:last-child li:last-child {
         grid-column: 1 / 3;
     }
 }
+
+@media (max-width: 400px) {
+    nav ul {
+        font-size: 0.5em;
+    }
+
+    #intro-section p:first-child {
+        text-align: center;
+    }
+}
